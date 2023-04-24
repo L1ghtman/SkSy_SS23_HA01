@@ -14,7 +14,7 @@
     background: rgba(0, 0, 0, 0.2);
 }
 
-.description {
+.content {
 	left: 50%;
 	position: absolute;
 	top: 25%;
@@ -28,12 +28,6 @@
 	color: #fff;
 	font-size: 1.3rem;
 	line-height: 1.5;
-}
-
-.description button:hover {
-	border:1px solid #fff;
-    background:#fff;
-    color:#000;
 }
 
 .page-footer {
