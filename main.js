@@ -1,7 +1,11 @@
-var ready = (callback) => {
-    if (document.readyState != "loading") callback();
-    else document.addEventListener("DOMContentLoaded", callback);
+window.onload = function() {
+    document.getElementById("Edit2").onclick = function () {
+        location.href = "Edit.html";
+    };
+
+    document.getElementById("Edit3").onclick = function () {
+        location.href = "Edit.html";
+    };
+
+
 }
-ready(() => {
-    document.querySelector(".header").style.height = window.innerHeight + "px";
-})

@@ -1,8 +1,11 @@
 .header {
+    width: 100%;
+    height: 750px;
     background-image: url('images/header-background.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
+
 }
 
 .overlay {
@@ -20,6 +23,7 @@
 	top: 25%;
 	transform: translate(-50%, -55%);
 	text-align: center;
+    
 }
 .description h1 {
 	color: #fff;
@@ -30,11 +34,18 @@
 	line-height: 1.5;
 }
 
+.description input {
+    width: 50%;
+    
+}
+
 .description button:hover {
 	border:1px solid #fff;
     background:#fff;
     color:#000;
 }
+
+
 
 .page-footer {
     background-color: #222;
@@ -48,4 +59,32 @@
 
 .page-footer h2 {
     text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .description input {
+        width: 150%;
+        
+    }
+ 
+    .features {
+        margin: 0;
+    }
 }
