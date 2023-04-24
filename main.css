@@ -30,14 +30,22 @@
 	line-height: 1.5;
 }
 
-.description button {
-    border:1px solid #6ab446;
-    background:#6ab446;
-    border-radius: 0;
-    color:#fff;
-}
 .description button:hover {
 	border:1px solid #fff;
     background:#fff;
     color:#000;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+.page-footer p {
+    text-align: center;
+}
+
+.page-footer h2 {
+    text-align: center;
 }
