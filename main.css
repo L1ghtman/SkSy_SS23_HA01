@@ -62,10 +62,19 @@
 }
 
 @media (max-width: 575.98px) {
+
+    .header {
+        width: 115%;
+        background-image: url('images/header-background.jpg');
+        background-size:auto;
+        background-position:inherit;
+        position: sticky;
+    
+    }
     .description {
         left: 0;
         padding: 0 15px;
-        position: absolute;
+        position: absoulte;
         top: 10%;
         transform: none;
         text-align: center;
@@ -87,4 +96,53 @@
     .features {
         margin: 0;
     }
+    .page-footer {
+        width: 115%;
+        background-color: #222;
+        color: #ccc;
+        padding: 60px 0 30px;
+    }
+
+
+
 }
+
+@media(max-width: 320px){ 
+    .header {
+        font-size: 10px;
+        width: 135%;
+
+    
+    }
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absoulte;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .description input {
+        width: 150%;
+        
+    }
+ 
+    .features {
+        margin: 0;
+    }
+    .page-footer {
+        width: 135%;
+        background-color: #222;
+        color: #ccc;
+        padding: 60px 0 30px;
+    }
+  }
