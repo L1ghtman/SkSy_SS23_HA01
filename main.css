@@ -20,24 +20,23 @@
 .description {
 	left: 50%;
 	position: absolute;
-	top: 35%;
+	top: 50%;
 	transform: translate(-50%, -55%);
 	text-align: center;
     
 }
 
 .description h1 {
-	color: #fff;
+	color: #000;
 }
 .description p {
-	color: #fff;
+	color: #000;
 	font-size: 1.3rem;
 	line-height: 1.5;
 }
 
 .description input {
     width: 50%;
-    
 }
 
 .description button:hover {
@@ -46,7 +45,9 @@
     color:#000;
 }
 
-
+.table {
+    color: #000;
+}
 
 .page-footer {
     background-color: #222;

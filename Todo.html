@@ -19,11 +19,10 @@
                 
                 <header class="page-header header container-fluid">
                         <div class="overlay"></div>
-                        <div class="description">
+                        <div class="col-10 description d-xs-block d-sm-none extra-small">
                                 <h1>TODO Tracker</h1>
                                 <p>This website will help you to easily keep track of your tasks and chores.</p>
-
-                                <table class="table">
+                                <table class="table table-hover table-borderless">
                                         <thead>
                                                 <tr>
                                                         <th scope="col">#</th>
@@ -63,9 +62,53 @@
                                 </table>
                                 <button type="button" onclick="location.href='New.html'" id=New class="btn btn-success">New Task</button>
                         </div>
+                        <div class="description d-none d-sm-block">
+                                <h1>TODO Tracker</h1>
+                                <p>This website will help you to easily keep track of your tasks and chores.</p>
+
+                                <table class="table table-hover table-borderless">
+                                        <thead>
+                                                <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">Task</th>
+                                                        <th scope="col">Due Date</th>
+                                                        <th scope="col">Status</th>
+                                                        <th scope="col">Edit</th>
+                                                        <th scope="col">Delete</th>
+                                                </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td scope="row">1</td>
+                                                        <td>Task 1</td>
+                                                        <td>Due Date 1</td>
+                                                        <td>Status 1</td>
+                                                        <td><button type="button" onclick="location.href='Edit.html'" id=Edit1 class="btn btn-primary">Edit</button></td>
+                                                        <td><button type="button" class="btn btn-danger">Delete</button></td>
+                                                </tr>
+                                                <tr>
+                                                        <td scope="row">2</td>
+                                                        <td>Task 2</td>
+                                                        <td>Due Date 2</td>
+                                                        <td>Status 2</td>
+                                                        <td><button type="button" onclick="location.href = 'Edit.html'" class="btn btn-primary">Edit</button></td>
+                                                        <td><button type="button" class="btn btn-danger">Delete</button></td>
+                                                </tr>
+                                                <tr>
+                                                        <td scope="row">3</td>
+                                                        <td>Task 3</td>
+                                                        <td>Due Date 3</td>
+                                                        <td>Status 3</td>
+                                                        <td><button type ="button" onclick="location.href = 'Edit.html'" class="btn btn-primary">Edit</button></td>
+                                                        <td><button type="button" class="btn btn-danger">Delete</button></td>
+                                                </tr>
+                                        </tbody>
+                                </table>
+                                <button type="button" onclick="location.href='New.html'" id=New class="btn btn-success">New Task</button>
+                        </div>
                         
                         
-                </header>
+                </header>                  
     
                 
                 <footer class="page-footer">
