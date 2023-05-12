@@ -22,8 +22,8 @@
                         <div class="col-10 description d-xs-block d-sm-none extra-small">
                                 <h1>TODO Tracker</h1>
                                 <p>Create a new task entry.</p>
-
-                                <table class="table table-hover table-borderless">
+                                <div class="table-responsive">
+                                        <table class="table table-hover table-borderless">
                                         <thead>
                                                 <tr>
                                                         <th scope="col">#</th>
@@ -43,34 +43,36 @@
                                                 
                                                 
                                         </tbody>
-                                </table>
+                                        </table>
+                                </div>
                                 <button type="button" id="Save" onclick="location.href = 'Todo.html'" class="btn btn-success">Save</button>
                         </div>
                         <div class="description d-none d-sm-block">
                                 <h1>TODO Tracker</h1>
                                 <p>Create a new task entry.</p>
-
-                                <table class="table table-hover table-borderless">
-                                        <thead>
-                                                <tr>
-                                                        <th scope="col">#</th>
-                                                        <th scope="col">Task</th>
-                                                        <th scope="col">Due Date</th>
-                                                        <th scope="col">Status</th>
-                                                </tr>
-                                        </thead>
-                                        <tbody>
-                                                <tr>
-                                                        <td scope="row">1</td>
-                                                        <td><input type="text" id="input" name="name" value= "Task 1" maxlength="160"></td>
-                                                        <td><input type="text" id="input" name="name" value= "Due Date 1" maxlength="160"></td>
-                                                        <td><input type="text" id="input" name="name" value= "Status 1" maxlength="160"></td>
+                                <div class="table-responsive">
+                                        <table class="table table-hover table-borderless">
+                                                <thead>
+                                                        <tr>
+                                                                <th scope="col">#</th>
+                                                                <th scope="col">Task</th>
+                                                                <th scope="col">Due Date</th>
+                                                                <th scope="col">Status</th>
+                                                        </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr>
+                                                                <td scope="row">1</td>
+                                                                <td><input type="text" id="input" name="name" value= "Task 1" maxlength="160"></td>
+                                                                <td><input type="text" id="input" name="name" value= "Due Date 1" maxlength="160"></td>
+                                                                <td><input type="text" id="input" name="name" value= "Status 1" maxlength="160"></td>
+                                                                
+                                                        </tr>
                                                         
-                                                </tr>
-                                                
-                                                
-                                        </tbody>
-                                </table>
+                                                        
+                                                </tbody>
+                                        </table>
+                                </div>
                                 <button type="button" id="Save" onclick="location.href = 'Todo.html'" class="btn btn-success">Save</button>
                         </div>
                 </header>
