@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 750px;
+    height: 350px;
     background-image: url('images/header-background.jpg');
     background-size: cover;
     background-position: center;
@@ -24,6 +24,13 @@
 	transform: translate(-50%, -55%);
 	text-align: center;
     
+}
+
+.saveButton {
+    left: 46%;
+	position: absolute;
+	top: 70%;
+	text-align: center;
 }
 
 .description h1 {

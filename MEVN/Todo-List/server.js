@@ -48,8 +48,8 @@ function serve(path, req, res) {
 
 // READ:
 app.get('/', (req, res) => {
-    //serve('/index.html', req, res);
-    res.render("index");
+    serve('/index.html', req, res);
+    //res.render("index");
 });
 app.get('/index.html', (req, res) => {
     serve('/index.html', req, res);
